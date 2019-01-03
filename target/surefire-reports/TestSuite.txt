@@ -1,0 +1,16 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 13, Failures: 1, Errors: 0, Skipped: 12, Time elapsed: 23.649 s <<< FAILURE! - in TestSuite
+setupDriver(by.bsu.pagefactoryselenium.Driver)  Time elapsed: 22.469 s  <<< FAILURE!
+org.openqa.selenium.WebDriverException: 
+Timed out waiting for driver server to start.
+Build info: version: '3.14.0', revision: 'aacccce0', time: '2018-08-02T20:19:58.91Z'
+System info: host: 'DESKTOP-VAOA9FE', ip: '192.168.240.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '9.0.4'
+Driver info: driver.version: Driver
+	at by.bsu.pagefactoryselenium.Driver.setupDriver(Driver.java:22)
+Caused by: org.openqa.selenium.net.UrlChecker$TimeoutException: Timed out waiting for [http://localhost:44414/status] to be available after 20002 ms
+	at by.bsu.pagefactoryselenium.Driver.setupDriver(Driver.java:22)
+Caused by: java.util.concurrent.TimeoutException
+	at by.bsu.pagefactoryselenium.Driver.setupDriver(Driver.java:22)
+
