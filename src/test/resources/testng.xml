@@ -6,7 +6,6 @@
             <class name="by.bsu.pagefactoryselenium.Driver"/>
             <class name="by.bsu.pagefactoryselenium.CityLangFormTest"/>
             <class name="by.bsu.pagefactoryselenium.TicketBuyFormTest"/>
-            <class name="by.bsu.pagefactoryselenium.JALBankFormTest"/>
         </classes>
     </test>
 </suite>
